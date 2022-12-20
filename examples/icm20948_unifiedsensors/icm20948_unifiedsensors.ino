@@ -54,7 +54,7 @@ void loop() {
 
   Serial.print("\t\tTemperature ");
   Serial.print(temp.temperature);
-  Serial.println(" deg C");
+  Serial.println(" °C");
 
   /* Display the results (acceleration is measured in m/s^2) */
   Serial.print("\t\tAccel X: ");
